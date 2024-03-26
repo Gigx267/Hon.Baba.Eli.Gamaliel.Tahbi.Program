@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hon. Baba Buriel Program</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <style>
+    /* Body styles (centering and background video) */
+    body {
+      display: flex; /* Enable flexbox for centering */
+      justify-content: center; /* Center content horizontally */
+      align-items: center; /* Center content vertically */
+      min-height: 100vh; /* Set minimum height for full viewport */
+      margin: 0; /* Remove default margin */
+      background-color: #f0f0f0; /* Optional: Light background for contrast */
+    }
+
+    #video-background {
+      position: fixed; /* Keep video background behind content */
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1; /* Place video behind other elements */
+    }
+
+    /* Button styles (heavenly look and fade-in) */
+    button {
+      padding: 15px 30px; /* Adjust padding as desired */
+      border: none;
+      border-radius: 10px; /* Rounded corners */
+      font-size: 18px;
+      font-family: Montserrat, sans-serif; /* Use Montserrat font */
+      cursor: pointer; /* Indicate clickable button */
+      color: #fff; /* White text */
+      background-image: linear-gradient(to bottom, #77aacc 0%, #436e96 100%); /* Gradient for heavenly look */
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+      opacity: 0; /* Initial opacity for hidden state */
+      transition: opacity 1s ease-in-out; /* Smooth fade-in animation */
+    }
+
+    button:hover {
+      opacity: 1; /* Button becomes fully visible on hover */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1> </h1>  
+    <h2>  A Glorious Exit  In Honour Of   Late Hon.Baba Eli Gamaliel Tahbi </h2>  
+    <button style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: #f0f0f0;" type="submit" class="btn" aria-label="submit">
+        
+            <span>
+      <span>
+        <a href="Hon. Baba buriel program.pdf" download="my_file.pdf"> <span style="color: #fff;">View Program </span></a>
+      </span>
+    </button>
+  </header>
+
+  <script>
+    window.addEventListener('load', () => {
+      const button = document.querySelector('button');
+      setTimeout(() => {
+        button.style.opacity = 1; /* Add a slight delay for fade-in */
+      }, 500); /* Adjust delay as desired (in milliseconds) */
+    });
+
+    document.addEventListener('contextmenu', event => event.preventDefault());
+  </script>
+
+  <video autoplay loop id="video-background" muted>
+    <source src="production_id_4562023 (1080p).mp4" type="video/webm">
+  </video>
+</body>
+</html>
+
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  background: #333;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#video-background {
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+h1 {
+  position: absolute;
+  bottom: 1%;
+  left:5%;
+  width: 94%;
+  font-size: 36px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  text-align: left;
+}
+
+</style>
